@@ -36,6 +36,7 @@
 
 <!-- Site-specific CSS files -->
         <link href="http://blink.ucsd.edu/_resources/css/site-specific.css" media="all" rel="stylesheet" type="text/css"/>
+        <link href="ted.css" media="all" rel="stylesheet" type="text/css"/>
 
 <!--[if lt IE 9]>
     <link rel="stylesheet" href="http://blink.ucsd.edu/_resources/css/tdr_search2-ie.css">
@@ -295,9 +296,10 @@ var radioHandler = function() {
 <div id="tdr_2_col_content">
 
 
-<!-- cssBlock start -->
-<div class="ted-banner">
-    <h1><img src="//acms.ucsd.edu/_images/ted/TritonEd.png" alt="TritonEd - Formerly known as Ted"></h1>
+  <!-- cssBlock start -->
+  <div class="ted-banner">
+    <h1>TritonEd</h1>
+    <h2>Formerly known as Ted</h2>
   </div>
 
   <div class="login">
@@ -305,52 +307,52 @@ var radioHandler = function() {
 
 
 
-<noscript>
-&lt;div class="receipt bad editmode"&gt;Please enable JavaScript in your browser for the Blackboard application to function.&lt;/div&gt;
-</noscript>
+    <noscript>
+      &lt;div class="receipt bad editmode"&gt;Please enable JavaScript in your browser for the Blackboard application to function.&lt;/div&gt;
+    </noscript>
 
-<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login">
+    <form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login">
 
 
 
-<div id="loginFormTitle">
-<h2>Have an account?</h2>
-</div>
+      <div id="loginFormTitle">
+        <h2>Have an account?</h2>
+      </div>
 
-<div id="loginFormText">
- <p>Please enter your credentials and click the <b>Login</b> button below.
-  </p>
-</div>
+      <div id="loginFormText">
+        <p>Please enter your credentials and click the <b>Login</b> button below.
+        </p>
+      </div>
 
-<div id="loginFormFields" class="clearfix">
-<ul id="loginFormList" class="clearfix">
-  <li class="clearfix">
-    <label for="user_id">Username:</label>
-    <input type="text" name="user_id" id="user_id" size="25" maxlength="50">
-  </li>
-  <li class="clearfix">
-    <label for="password">Password:</label>
-    <input size="25" name="password" id="password" type="password" autocomplete="on">
-  </li>
-  <li class="clearfix">
-    <input id="entry-login" type="submit" value="Login" name="login" class="button expand success submit button-1">
-  </li>
-  <li class="clearfix">
-      <span class="forgot"><a href="https://blink.ucsd.edu/faculty/instruction/tritoned/login-help.html" onclick="login_openForgotPassword('https://blink.ucsd.edu/faculty/instruction/tritoned/login-help.html');return false;">Forgot Your Password?
+      <div id="loginFormFields" class="clearfix">
+        <ul id="loginFormList" class="clearfix">
+          <li class="clearfix">
+            <label for="user_id">Username:</label>
+            <input type="text" name="user_id" id="user_id" size="25" maxlength="50">
+          </li>
+          <li class="clearfix">
+            <label for="password">Password:</label>
+            <input size="25" name="password" id="password" type="password" autocomplete="on">
+          </li>
+          <li class="clearfix">
+            <input id="entry-login" type="submit" value="Login" name="login" class="button expand success submit button-1">
+          </li>
+          <li class="clearfix">
+            <span class="forgot"><a href="https://blink.ucsd.edu/faculty/instruction/tritoned/login-help.html" onclick="login_openForgotPassword('https://blink.ucsd.edu/faculty/instruction/tritoned/login-help.html');return false;">Forgot Your Password?
             <span class="hideoff">(new window)</span>
-          </a></span>
-    </li>
-</ul>
-</div>  <input type="hidden" name="action" value="login">
-<input type="hidden" name="new_loc" value="">
-</form>
-</div>
-
-  <div class="alertbox">
-    <iframe id="alertframe" marginheight="0" marginwidth="0" frameborder="0" src="https://acms.ucsd.edu/services/ted-homepage/alertbox-tritoned.html?reload=7227" allowtransparency="true" scrolling="no"></iframe>
+            </a>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <input type="hidden" name="action" value="login">
+      <input type="hidden" name="new_loc" value="">
+    </form>
   </div>
 
 
+
+<div class="sfg-container">
   <div class="students">
     <iframe marginheight="0" marginwidth="0" frameborder="0" src="https://acms.ucsd.edu/services/ted-homepage/students.html" allowtransparency="true" scrolling="no"></iframe>
   </div>
@@ -362,22 +364,22 @@ var radioHandler = function() {
   <div class="help">
     <iframe marginheight="0" marginwidth="0" frameborder="0" src="https://acms.ucsd.edu/services/ted-homepage/help.html" allowtransparency="true" scrolling="no"></iframe>
   </div>
+</div>
 
-      <div class="main">
-        <iframe marginheight="0" marginwidth="0" frameborder="0" src="https://acms.ucsd.edu/services/ted-homepage/news.html" allowtransparency="true" scrolling="no"></iframe>
-      </div>
+  <div class="main">
+    <iframe marginheight="0" marginwidth="0" frameborder="0" src="https://acms.ucsd.edu/services/ted-homepage/news.html" allowtransparency="true" scrolling="no"></iframe>
+  </div>
 
   <div class="clear"></div>
 
-      <div class="photo-credit">
-        Photo by Erik Jepsen - UC San Diego Publications
-      </div>
+  <div class="photo-credit">
+    Photo by Erik Jepsen - UC San Diego Publications
+  </div>
 
 
 
 
-<!-- genericPage end -->
-
+  <!-- genericPage end -->
 
 
 
@@ -389,7 +391,6 @@ var radioHandler = function() {
 
 
 </div>
-
     <div id="tdr_2_col_nav">
 
 
