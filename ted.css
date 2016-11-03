@@ -1,0 +1,346 @@
+/*
+ * Ted Homepage Styles
+ */
+/* Overriding Blackboard styles */
+#tdr_content_content, #tdr_nav, #tdr_search, #tdr_footer, #tdr_content_content .ted-banner, #tdr_content_content .login {
+    font-family: "helvetica neue", arial, sans-serif !important;
+}
+#tdr_nav a{
+   font-size: 14px !important;
+   font-weight: normal !important;
+}
+#tdr_footer {
+    font-size: 13px !important;
+    font-weight: normal !important;
+}
+/*
+#tdr_content_content .ted-banner .subtitle {
+    font-weight: bold !important;
+}*/
+
+/* Hide Unnecessary Elements */
+#loginFormTitle, #loginFormText, .hideoff {
+    display: none;
+
+}
+
+/* Styles for iFramed content */
+.home-block {
+    font-family: "helvetica neue", arial, sans-serif;
+
+}
+
+
+/* Everything else */
+
+html {
+    background: #333/* url("https://acms.ucsd.edu/_images/ted/bg-books-75.jpg") */;
+}
+
+body {
+    background: transparent !important;
+}
+#tdr_footer {
+    background: #fff;
+}
+
+#tdr_content {
+    background: transparent !important;
+}
+
+
+.ted-banner, .login, .students, .faculty, .help, .alertbox
+	{
+	margin-bottom: 30px
+	}
+
+.ted-banner
+	{
+	float: left;
+	}
+
+.toprow, .middlerow
+	{
+    margin-bottom: 30px;
+	}
+
+.students, .faculty, .help, .main {
+    float: left;
+    display: inline;
+    background: #fff;
+}
+
+.toprow {
+	position: relative;
+	}
+
+.middlerow {
+	}
+
+.clear	{
+	width: 100%;
+	clear: both;
+	}
+
+.alertbox {
+	float: left;
+	margin-top: -90px;
+    width: 630px;
+	line-height: 0;
+	position: relative;
+	}
+
+.login {
+	float: right;
+    background: #F1F1F1;
+    border: 1px solid #BBD7E7;
+    width: 297px;
+	min-height: 232px;
+}
+
+
+.students, .faculty, .help {
+    color: #fff;
+    width: 300px;
+    height: 250px;
+}
+
+.alertbox iframe {
+    border: 0;
+    height: 100px;
+	width: 630px;
+}
+.students iframe, .faculty iframe, .help iframe {
+    border: 0;
+    height: 250px;
+}
+.students h2, .faculty h2, .help h2 {
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,.5);
+    filter: dropshadow(color=#6b6b6b, offx=2, offy=2);
+}
+
+.students {
+    background: #67AC4C url("https://acms.ucsd.edu/_images/ted/clok-stu.gif") bottom right no-repeat;
+}
+
+.faculty {
+    background: #479CBA url("https://acms.ucsd.edu/_images/ted/clok-fac.gif") bottom right no-repeat;
+    margin: 0 30px 0 30px;
+}
+
+.help {
+    background: #D75C5C url("https://acms.ucsd.edu/_images/ted/clok-help.gif") bottom right no-repeat;
+}
+.main {
+    width: 100%;
+    height: 400px;
+    background: #fff;
+    margin-bottom: 125px;
+}
+.main iframe {
+    border: 0;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+
+/* Login Form */
+input[type="password"] {
+    border: 1px solid #aaa;
+    padding: .25em;
+}
+
+#loginErrorMessage:after {
+display: block; margin-top: 10px; content:
+}
+
+#loginFormList li {
+    margin-left: 20px;
+    width: 260px;
+}
+#loginFormList li label {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+#loginFormList li label:last-letter {
+    color: #fff
+}
+#loginFormList li #user_id, #loginFormList li #password {
+    width: 250px;
+}
+
+#loginFormList .submit.button-1 {
+    font-size: 18px;
+
+    border: 0;
+    color: #333;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: rgba(255,255,255,.5) 0 1px 1px;
+    margin-right: .5em;
+    padding: .25em 1em;
+    -moz-border-radius: .25em;
+    -webkit-border-radius: .25em;
+    border-radius: .25em;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+    box-shadow: 0 1px 2px rgba(0,0,0,.5);
+
+    background: #fc0;
+    background: -moz-linear-gradient(top,#fc0,#fa0);
+    background: -webkit-gradient(linear,left top,left bottom,from(#fc0),to(#fa0));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffcc00',endColorstr = '#ffaa00');
+}
+#loginFormList .forgot {
+    font-size: 12px;
+}
+#loginFormList li:first-child {
+    margin-top: 20px;
+}
+#loginFormList li:nth-child(2) {
+    margin-bottom: 10px;
+}
+#loginFormList li:nth-child(3) {
+    float: right;
+    width: 50%;
+}
+#loginFormList li:last-child {
+    float: left;
+    width: 33%;
+}
+#tdr_footer {
+    margin-bottom: -20px;
+}
+
+.photo-credit {
+    color: #fff;
+    display: inline;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+    opacity: .5;
+}
+.photo-credit a {
+    color: #99cbdc !important;
+}
+
+@media screen and (max-width: 979px)
+	{
+	body  {
+		min-width: 0;
+		}
+	body #tdr_content_content
+		{
+		max-width: 98%;
+		}
+
+	.ted-banner
+		{
+		}
+
+	.login
+		{
+		float: left;
+		clear: left;
+		}
+
+	.alertbox
+		{
+		margin-left: 30px;
+		margin-top: 0;
+		margin-right: -300px;
+		z-index: 10;
+		}
+
+	.faculty
+		{
+		margin-left: 0;
+		margin-right: 30px;
+		}
+
+	.alertbox, .alertbox iframe,
+	.students, .students iframe
+		{
+		width: 300px;
+		height: 234px;
+		}
+
+	.middlerow > div
+		{
+		margin-bottom: 30px;
+		}
+
+	.main, .main iframe
+		{
+		width: 630px;
+		height: 600px;
+		}
+	}
+
+@media screen and (max-width: 494px)
+	{
+	#tdr_title_page_title a
+		{
+		font-size: 80%;
+		}
+
+
+	}
+
+@media screen and (max-width: 400px)
+	{
+	#tdr_title_page_title a
+		{
+		font-size: 70%;
+		}
+	}
+
+@media screen and (max-width: 660px)
+	{
+
+	.alertbox, .ted-banner, .login, .alertbox, .students, .faculty, .help, .main,
+	.middlerow > div
+		{
+		float: left;
+		margin: 30px 0 0 0;
+		margin-right: 60px;
+		width: 98%;
+		}
+
+	.alertbox
+		{
+		z-index: 10;
+		margin-bottom: -300px;
+		height: 250px;
+		}
+
+	.alertbox iframe
+		{
+		width: 100%;
+		height: 250px;
+		}
+
+	.toprow, .middlerow
+		{
+		margin-bottom: 0;
+		}
+
+	.login form
+		{
+		max-width: 400px;
+		}
+
+	.main, .main iframe
+		{
+		width: 100%;
+		height: 900px;
+		}
+	}
